@@ -1,0 +1,11 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.fastfoodindex/fast-food-index",
+  "title": "Fast Food Index",
+  "description": "Live fast food prices from 10 US chains: Big Mac Index by state, chain medians & price changes.",
+  "version": "1.0.0",
+  "websiteUrl": "https://fastfoodindex.com/api/",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://api.fastfoodindex.com/mcp" }
+  ]
+}
